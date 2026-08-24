@@ -27,6 +27,14 @@ worked through Bandit Levels 0 through 14 via **SSH**, covering fundamentals:
 `strings {filename}`: it finds printable characters; it handels dump/hex/excutable files.
 `base64 -d`: it's mainly an encoding technique (in base64 scheme), and with -d it can decode files which use this scheme.
 `cat {filename} | tr 'old pattern' 'new pattern'`: tr allows replacing characters with others.
+`xxd -r {filemae} {newfilename}`, `gzip -d {filename}`, `bzip2 -d {filename}`, `tar -xf {filename` these command mainly for manuplate diffenet file extenxions, `xxd` for hexdumps, `gzip` for .gz, `bzip2` for .bz2, `tar` for .tar.
+
+4. SSH commands:
+`scp -P <port> <user>@<IP>:<remotefilepath> <localfilepath>.` to extract files to the main current system.
+
+
+### Problems Encountered
+
 
 
 
