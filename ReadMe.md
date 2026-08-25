@@ -34,7 +34,7 @@ worked through Bandit Levels 0 through 14 via **SSH**, covering fundamentals:
 
 
 ### Problems Encountered
-
+1. Level 13 to 14: Expected a local SSH-based approach to get the password, when I ran `ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220` from the user `bandit13` I couldn't get in the user `bandit14`. Realized I have to transfer the `sshkey.private` file to my main system, and solved it by transferring it using the `scp` command.
 
 
 
